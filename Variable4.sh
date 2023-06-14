@@ -13,5 +13,7 @@ read -s PASSWORD
 
 echo
 
+#Here it will print username and password
+
 echo "Username: ${USERNAME}"
 echo "Password: ${PASSWORD}"
