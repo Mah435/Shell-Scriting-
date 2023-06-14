@@ -3,6 +3,8 @@
 USERID=$(id -u)
 
 #check user is root or not
+#If user Id is 0 then he is the root user
+#To install a package,We has to be Root_User
 
 if [ $USERID -ne 0 ]; then
 	echo "You need to be root user to execute this script"
