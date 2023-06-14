@@ -1,0 +1,20 @@
+
+
+#!/bin/bash
+
+###########################
+#Author: Mahesh
+#Date:13-06-2023
+#
+#This Script Executes Node Health
+#
+#Vesrion:V1
+###########################
+
+set -x #debug mode
+
+df -h
+
+nproc
+ 
+free -g 
