@@ -1,6 +1,8 @@
 
 #!/bin/bash
 
+#To hide the username and password details 
+
 echo -n "Enter Username: "
 read -s USERNAME
 
