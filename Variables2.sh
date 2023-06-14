@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#To change values at runtime
+
 Person1=$1
 Person2=$2
 
