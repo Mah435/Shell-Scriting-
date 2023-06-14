@@ -1,6 +1,6 @@
 #!/bin/bash
 
-lsss -ltr # it is failure so it will not excute further
+lsss -ltr # it is failure so it will not execute further
 
 if [ $? -ne 0 ]; then
 	echo "previous command is failure"
